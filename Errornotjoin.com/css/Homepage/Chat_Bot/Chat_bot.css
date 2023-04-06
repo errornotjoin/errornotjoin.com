@@ -1,0 +1,214 @@
+.Chat_bot_Main_backGround
+{
+    background-color: #39405a;
+    height: max-content;
+    width: 90%;
+    position: absolute;
+    bottom: 200px;
+    left: 5%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px black;
+    height: 600px;
+}
+.CBMB_Main_Item_background
+{
+    position: relative;
+    bottom: 620px;
+    background-color: #1f2231;
+    width: 80%;
+    height: 600px;
+    left: 20%;
+    border-radius: 10px;
+}
+.CBMB_Main_Side_backGround
+{
+    height: 600px ;
+    background-color: #1b1e2b;
+    width: 20%;
+    text-align: center;
+    border-radius: 10px;
+    position: relative;
+    bottom: 20px;
+}
+.CBMB_Main_Side_backGround input
+{
+    width: 95%;
+    border: none;
+    border-radius: 5px;
+    background-color: #2a3147;
+    color: snow;
+    position: relative;
+    bottom: 25px;
+    text-align: center;
+}
+.CBMB_Main_Bottom_backGround1
+{
+    position: relative;
+    left: 21.9%;
+    width: 76%;
+    bottom:710px;
+    height: 40px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px black;
+    display: flex;
+    flex-direction: row;
+}
+.CBMB_Main_Bottom_backGround1 input
+{
+    position: relative;
+    top: 10px;
+    width: 90%;
+    color: snow;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    background-color: #1c1f2c;
+}
+.CBMB_Main_Bottom_backGround1 button
+{
+    position: relative;
+    top: 10px;
+    width: 10%; 
+    height: 30px;
+    border: none;
+    border-radius:5px;
+    background-color: #292d41;
+    color: snow;
+}
+.MSB_Sub_div 
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #1f2231;
+    height: 500px;
+    width: 90%;
+    position: relative;
+    left: 5%;
+    border-radius: 10px;
+    overflow-y: scroll;
+    bottom: 00px;
+}
+.MSB_Sub_div button
+{
+    background-color: #292d41;
+    border: none;
+    width: 100%;
+    border-radius: 5px;
+    color: snow;
+    font-size: large;
+    height: 50px;
+}
+.MSB_Sub_div button:hover ,.CBMB_Main_Bottom_backGround1 button:hover
+{
+    box-shadow: 10px 10px 10px black;
+    background-image:linear-gradient( #515e86, #2a3147);
+}
+.Main_bot_background, .Main_bot_background1
+{
+
+    width: 96%;
+    background-color: #191b27;
+    height: 550px;
+    border-radius: 10px;
+}
+.Main_bot_background
+{
+    position: relative;
+    left: 2%;
+    top: 10px;
+}
+.Main_bot_background1
+{
+    position: relative;
+    bottom: 540px;
+    left: 2%;
+}
+
+.Main_chat_bot_sat
+{
+    width: 100%;
+    height: 5px;
+    background-color: rgb(1, 37, 1);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: relative;
+    bottom: 5px;
+    font-size: 0px;
+    border-radius: 10px;
+    
+}
+.Main_chat_bot_sat:hover 
+{
+    border-radius: 0px;
+    background-image:linear-gradient( green, rgb(5, 37, 5));
+    height: 20px;
+    font-size: medium;
+    box-shadow: 5px 5px 5px black;
+}
+
+@media (max-width: 1311px) {
+    .Chat_bot_Main_backGround
+{
+    position: absolute;
+    bottom: 180px;
+    left: 5%;
+}
+}
+@media (max-width:1219px) {
+    .Chat_bot_Main_backGround
+    {
+        position:absolute;
+        top: 100px;
+        height: 700px;
+    }
+    .CBMB_Main_Side_backGround
+    {
+        height: 90px;
+        width: 100%;
+    }
+
+    .MSB_Sub_div
+    {
+        height: 65px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        left: 0%;
+        top: 15px;
+        overflow-y: hidden;
+
+    }
+    .MSB_Sub_div div
+    {
+        position: relative;
+        left: 1%;
+        width: 48.5%;
+        top: 5px;
+    }
+    .CBMB_Main_Item_background
+    {
+        position: relative;
+        top: 50px;
+        height: 500px;
+        left: 1%;
+        width: 98%;
+    }
+    .Main_bot_background1
+    {
+        height: 490px;
+    }
+    .CBMB_Main_Bottom_backGround1
+    {
+        position: relative;
+        left: 5%;
+        top: 40px;
+        width: 90%;
+    }
+    .Main_chat_bot_sat
+    {
+        
+        
+        visibility: hidden;
+    }}

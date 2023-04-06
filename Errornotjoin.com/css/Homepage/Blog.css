@@ -1,0 +1,133 @@
+.Home_for_the_blog
+{
+    background-color:#272d41;
+    position: relative;
+    top: 10px;
+    border-radius: 10px;
+    height: 1000px;
+
+}
+.options_buttons
+{
+    width: 100%;
+    background-color: #363f5a;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 1%;
+}
+.options_buttons button, .options_buttons input
+{
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    background-color: #414b6b;
+    color: snow;
+}
+.options_buttons button:hover, .Main_header_for_the_this_blog:hover,
+ .Text_for_the_blog p:hover, .Text_for_the_blog li:hover, .Text_for_the_blog ul:hover
+ 
+{
+    box-shadow: 10px 10px 10px black;
+    background-image:linear-gradient( #515e86, #2a3147);
+}
+.sub_home_for_the_blog
+{
+    display: flex;
+    
+   flex-direction: column;
+    gap: 5%;
+    background-color: #30374e;
+    position: relative;
+    top: 10px;
+    width: 95%;
+    left: 3%;
+    border-radius: 5px;
+    height: 950px;
+    overflow-y: scroll;
+}
+.Nothing_here
+{
+width: 100%;
+background-color: #272e41;
+height: 100px;
+}
+.Other_mian_items
+{
+    visibility: hidden;
+    width: 0%;
+    padding: 0%;
+    margin: 0%;
+}
+.Main_header_for_the_this_blog
+{
+    position: relative;
+    top: 5px;
+    left: 2%;
+    width: 95%;
+    height: 90px;
+    border-radius: 10px;
+    background-color: #373f5c;
+    display: flex;
+    flex-direction: row;
+    gap: 40%;
+    text-align: start;
+}
+.Text_for_the_blog
+{
+   
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-image: linear-gradient(#292c44,#1b1d2e, #12121a);
+    position: relative;
+    bottom:  23px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    font-style: italic;
+    text-shadow: 5px 5px 5px black;
+    box-shadow: 10px 10px 10px black;
+}
+@media (max-width: 1200px) {
+    .Main_header_for_the_this_blog
+    {
+     gap: 35%;
+   }
+    
+}
+@media (max-width: 800px) {
+    .Main_header_for_the_this_blog
+    {
+     gap: 25%;
+   }
+
+   .Home
+   {
+       visibility: hidden;
+   }
+   .Home_for_the_blog
+   {
+    width: 100%;
+   }
+   
+}
+@media (max-width: 600px) {
+
+    .Main_header_for_the_this_blog
+    {
+     gap: 24%;
+   }
+   .Home_for_the_blog
+   {
+    width: 100%;
+   }
+   
+
+    
+}
+@media (max-width:335px) {
+    .Home_for_the_blog
+    {
+     width: 100%;
+    }
+    
+}

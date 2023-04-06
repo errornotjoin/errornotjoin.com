@@ -1,0 +1,37 @@
+@keyframes ShowAll_Leveling{
+    0%{transform: translatex(-50%);}
+    
+}
+@keyframes ShowAll_loading {
+    0%{transform: translatex(150%);}
+    
+}
+@keyframes Open_Projects {
+    0%
+    {
+       height:  0px;
+    }
+    100%
+    {
+        height: 500px;
+    }
+}
+@keyframes Close_ProJects {
+    0%
+    {
+       height:  500px;
+    }
+
+    100%
+    {
+        height: 0px;
+    }
+}
+@keyframes  Going_To_The_side {
+    0%{width: 89%;}
+    100%{width: 10%;}    
+}
+@keyframes  Going_back {
+    0%{width: 0%;}
+    100%{width: 100%;}    
+}
