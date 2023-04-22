@@ -1,0 +1,52 @@
+.Main_items
+{
+    position: relative;
+    left: 3%;
+    background-image: linear-gradient(#202336,#0e0f18, #12121a);
+    width: 95%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+}
+.Other_header
+{
+    position: relative;
+    background-image: linear-gradient(#333853,#1f2135, #262636);
+    width: 50%;
+    left: 25%;
+    text-align: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0px 10px 10px black;
+}
+li{list-style: none;}
+
+.Main_List li ul 
+{color: lightblue}
+.Main_webste_footer
+{
+    position: relative;
+    top: 240px;
+    background-image: linear-gradient(#202336,#0e0f18, #12121a);
+    display: flex;
+    gap: 10%;
+}
+.Main_items_smail
+{
+    width: 45%;
+    background-image: linear-gradient(#333853,#1f2135, #262636);
+    position: relative;
+    left: 25%;
+    border-radius: 10px ;
+    box-shadow: 10px;
+    box-shadow: 10px 10px 100px black;
+}
+.Main_items_smail img
+{
+ position: relative;
+ left: 5%;
+ border-radius: 10px;
+}
+.Main_items_smail img:hover
+{
+    box-shadow: 10px 10px 100px black;
+}

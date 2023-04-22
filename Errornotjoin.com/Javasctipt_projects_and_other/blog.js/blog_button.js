@@ -1,98 +1,66 @@
-var number_of_blogs = 12;
-var r = 0 
-var Looking_For_the_item = document.getElementById("Looking_For_the_item")
-Looking_For_the_item.addEventListener("click", function Searching_for_blog()
+function Picking_Items(The_Items_value)
 {
-    var I_LookIng_for_A_date = document.getElementById("I_look_at")
-    for(var x = 0; x <= number_of_blogs; x++)
+    switch(The_Items_value)
     {
-        console.log(x);
-        var Blog_Made_on = document.getElementById("Made_on_" + x)
-        var blog_body = document.getElementById("Blog_body_items" + x)
-        if(I_LookIng_for_A_date.value == Blog_Made_on.innerText)
-        {
-            blog_body.style.display = "block"
-        }
-        else
-        {
-           // console.log(Blog_Made_on.textContent);
-            blog_body.style.display = "none"
-        }
-      
-    }
-}) 
+        case 1:
+            Using_the_items_value("Show All")
+        break;
+        case 2:
+            Using_the_items_value("Small Update")
+        break;
+        case 3:
+            Using_the_items_value("Big Update")
+        break;
+        case 4:
+            Using_the_items_value("Blog")
+        break;
 
-function Opening_and_closing_blog_items(Blogs_Number)
-{
-    var Blog_name = document.getElementById("Text_for_the_blog" + Blogs_Number)
-    if(Blog_name.style.display == "none")
+    }
+    function Using_the_items_value(The_Number)
     {
-        Blog_name.style.display = "block"
-    }
-    else
-    {
-        Blog_name.style.display = "none"
-    }
-}
-function Picking_Items(Items_numbers)
-{
-   switch(Items_numbers)
-   {
-    case 0:
-            console.log("This Dose Nothing Right NOW ");
-        break;
-    case 1:
-        Opening_all_blogs()
-        break;
-    case 2:
-        Looking_for_items("Small Update")
-        break;
-    case 3:
-        Looking_for_items("Big Updates")
-        break;
-    case 4:
-        Looking_for_items("Blog")
-        break;
-    case 5:
-        All_blog_context()
-        break;
-    }
-    function Opening_all_blogs()
-    {        
-        for(var x = 0; x <= number_of_blogs; x++)
+        for(var x = 1; x <= 13; x++)
         {
-            var blog_body = document.getElementById("Blog_body_items" + x)
-            if(blog_body.style.display == "none")
+            var The_item = document.getElementById("The_item_" + x )
+                
+            if(The_Number == "Show All")
             {
-                blog_body.style.display = "block"
-            }
-
-        }
-    }
-    function Looking_for_items(name_for_looking_for_items)
-    {
-        for(var x = 0; x <= number_of_blogs; x++)
-        {
-            var Blog_name = document.getElementById("blog" + x)
-            var blog_body = document.getElementById("Blog_body_items" + x)
-            if(Blog_name.textContent == name_for_looking_for_items)
-            {
-                blog_body.style.display = "block"
+                if(The_item.style.display == "none")
+                {
+                    The_item.style.display = "inline"
+                }
             }
             else
             {
-                blog_body.style.display = "none"
+                var The_Text = document.getElementById("What_type_of_item_" + x)
+                if(The_Text.textContent == The_Number)
+                {
+                    The_item.style.display = "inline"
+                }
+                else
+                {
+                    The_item.style.display = "none"
+                }
             }
         }
     }
-    function All_blog_context()
+}
+function Getting_the_input_AND_using_it_for_output()
+{
+    var User_Input = document.getElementById("I_look_at")
+    for(var x = 1; x <= 13; x++)
     {
-        for(var x = 0; x <= number_of_blogs; x++)
+        var The_item = document.getElementById("The_item_" + x )
+        var The_item_date_that_it_was_made = document.getElementById("The_item_date_that_it_was_made_" + x )
+        var The_item_number = document.getElementById("The_item_number_" + x)
+        if(User_Input.value == The_item_number.textContent || User_Input.value == The_item_date_that_it_was_made.textContent  )
         {
-            var Blog_name = document.getElementById("Text_for_the_blog" + x)
-            Blog_name.style.display = "block"
+            The_item.style.display = "inline"
+            console.log("Yes");
         }
+        else
+        {
+            The_item.style.display = "none"
+        }
+
     }
 }
-
-
