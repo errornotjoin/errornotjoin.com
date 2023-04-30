@@ -1,399 +1,130 @@
-
-.Youtube_cookies
+.Side
 {
-    background-color: #37415f;
-    width: 20%;
-    border-radius: 10px;
-    text-align: center;
-    box-shadow: 10px 10px 10px black;
     position: relative;
-    left: 35%;
-    bottom: 920px;
-
+    width: 10%;
+    top: 10px;
+    height: 1000px;
+    background-image: linear-gradient(#202336,#0e0f18, #12121a);
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    box-shadow: 10px 0px 50px black;
+    text-align: center;
+    z-index: 2;
+    max-zoom: 100px;
+    
 }
-
-.Youtube_cookies div
+.Side_main_meun
 {
     display: flex;
-    flex-direction: row;
-    gap: 10px;
+    flex-direction: column;
+    gap: 10%;
 }
-.Youtube_cookies button
+.Side li
 {
-    width: 50%;
-    position: relative;
-    border: none;
-    border-radius: 5px;
-    background-color: #07143b;
-    color: snow;
+    text-align: start;
+    list-style: none;
 }
-.Youtube_cookies button:hover
+.Youtube_cookies,.Main_body_for_the_videos, .backgeouund_one_doom
 {
-    box-shadow: 10px 10px 10px black;
-    background-color: #12151f;
-}
-.Videos
-{
-    display: grid;
-    grid-template-rows: 75% 55%;
-    gap:  45px;
+   position: relative;
+   left: 10%;
+   background-image: linear-gradient(#181a27,#0e0f18, #101018); 
+   bottom: 900px;
+   text-align: center;
+   width: 95%;
+   height: 1000px;
+   z-index: 1;
+
+   border-bottom-right-radius: 10px;
+   border-top-right-radius: 10px;
 
 }
 .backgeouund_one_doom
 {
     position: relative;
-    left: 11%;
     bottom: 990px;
-    width: 85%;
-    background-color: #2a3147;
-    border-radius: 10px;
-    box-shadow: 10px 10px 10px black;
-    height: 900px;
-    overflow-y: scroll; 
 }
-.backgeouund_two_Dishorner
-{
-    width: 85%;
-    position: relative;
-    height: 1000px;
-    left: 13%;
-    bottom: 1890px;
-    background-color: #37415f;
-    border-radius: 10px;
-    box-shadow: 10px 10px 10px black;
-    
-}
-.backgeouund_two_Battlefield
-{
-    position:relative;
-    bottom: 2890px;
-    width: 85%;
-    left: 13%;
-    height: 1000px;
-    background-color: #37415f;
-    border-radius: 10px;
-    box-shadow: 10px 10px 10px black;
-}
-.backgeouund_two_list
-{
-    position: relative;
-    bottom: 3890px;
-    width: 90%;
-    left: 3%;
-    border-radius:10px ;
-}
-.Main_background_two_playList
-{
-    background-color: #37415f;
-    height: 600px;
-    width: 90%;
-    position: relative;
-    left: 10%;
-    display: grid;
-    grid-template-columns: 30% 30% 30%;
-    gap: 1%;
-}
-.Main_background_two_playList iframe
-{
-    position: relative;
-    left: 1%;
-    top: 10px;
-    width: 100%;
-    height: 250px;
-    border-radius: 10px;
-
-}
-.Button_One, .Button_two
-{
-    background-color:#414c6e ;
-    width: 100%;
-    border: none;
-    color: snow;
-    border-radius: 5px;
-    text-shadow: 5px 5px 5px black;
-    font-size: large;
-    box-shadow: 5px 5px 5px black;
-}
-.Main_background_one, .Main_background_two
-{
-    position: relative;
-    left: 1%;
-    display: grid;
-    grid-template-columns: 30% 30% 30%;
-    gap: 3%;
-    grid-template-rows: 32% 32% 32%;
-}
-.Main_background_two
-{
-    grid-template-rows: 30% 30% 30%;
-    gap: 4%;
-}
-.Main_background_one iframe, .Main_background_two iframe
-{
-    width: 100%;
-    height: 300px;
-    border-radius: 10px;
-}
-.Side
-{
-    text-shadow: black 5px 5px 5px;
-    text-align: center;
-    color: snow;
-    background-color: #1d2131;
-    position: relative;
-    top: 10px;
-    display:  grid;
-    grid-template-rows: 5% ;
-    width: 10%;
-    border-radius: 10px;
-    height: 1000px;
-    box-shadow: black 10px 10px 10px ;
-    z-index: 1;
-}
-
-.Footer_Of_The_Website
-{
-    position: relative;
-    background-color: #232a41;
-    border-radius: 10px;
-    box-shadow: 10px 10px 10px black;
-    top: 50px;
-    text-align: center;
-
-}
-.Footer_Of_The_Website li 
-{
-    list-style: none;
-}
-
-.Videos div iframe:hover
-
-{
-    box-shadow: 10px 10px 10px black;
-}
-.Account,.Games_i_play{visibility:visible ;}
-.Account li,.Games_i_play li
-{
-    list-style:none;
-}
-.thing{visibility: visible;}
 .Main_body_for_the_videos
 {
-    background-color: #232a41;
-    border-radius: 10px;
-    box-shadow: 10px 10px 10px black;
-    width: 89%;
-    position: absolute;
-    left: 10.5%;
-    top: 100px;
+    position: relative;
+    bottom: 990px;
+    height: 999px;
+    width: 90%;
     overflow-y: scroll;
-    height: 2100px;
-    z-index: 0;
 }
-.options_buttons
+.Main_text
+{
+    background-color: #12121a;
+    color: #fcfffc;
+}
+.Button_One
 {
     width: 100%;
-    background-color: #363f5a;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: row;
-    gap: 1%;
-}
-.options_buttons button, .options_buttons input
-{
-    width: 100%;
-    border-radius: 5px;
+    background-image: linear-gradient(#282b41,#202236, #1b1b27);
+    box-shadow: 0px 10px 10px black;
     border: none;
-    background-color: #414b6b;
     color: snow;
 }
-.options_buttons button:hover, .The_Name:hover, iframe:hover, button:hover
+.Main_background_one
 {
-    box-shadow: 10px 10px 10px black;
-    background-image:linear-gradient( #515e86, #2a3147);
+    display: grid;
+    grid-template-columns: 20% 20% 20% 15%;
+    position: relative;
+    top: 20px;
+    gap: 5%;
+}
+.options_buttons 
+{
+    background-image: linear-gradient(#282b41,#202236, #1b1b27);
+    box-shadow: 0px 10px 10px black;
+    display: flex;
+    gap: 10%;
+    text-align: center;
+    align-items: center;
+}
+.options_buttons button
+{
+    position: relative;
+    left: 25%;
+    background-image: linear-gradient(#181a27,#0e0f18, #101018); 
+    color: snow;
+    height: 50px;
+    border: none;
+}
+.options_buttons button:hover,.All_Videos iframe:hover
+{
+    box-shadow: 0px 10px 10px black;
+    background-image: linear-gradient(#202336,#0e0f18, #12121a);
 }
 .The_Name
 {
-    width: 100%;
-    background-color: #414b6b;
-    text-align: center;
-    text-shadow: 5px 5px 5px black;
-    position: relative;
-    bottom: 15px;
-    box-shadow: 5px 5px 5px black;
+    background-color: #202236;
+    font-size: 30px;
+    
 }
 .All_Videos
 {
     display: grid;
-    grid-template-columns: 30% 30% 30%;
-    grid-template-rows: 11% 11% 11%;
-    gap: 1%;
-    position: relative;
-    left: 4%;
+    grid-template-columns: 20% 20% 20% 20% ;
+    gap: 5%;
 
 }
-.All_Videos iframe
+.All_Videos iframe, .Main_background_one iframe
 {
+    position: relative;
+    left: 10%;
+    border-radius: 10px;
     width: 100%;
-    border-radius: 10px;
-    height: 300px;
-
 }
-@media (max-width: 1422px) {
-    .Footer_Of_The_Website
-    {
-        position: relative;
-        top: 1200px;
-    }
-    .Main_body_for_the_videos
-    {
-        position: absolute;
-        top: 250px;
-        width: 100%;
-        left: 0%;
-        height: max-content;
-    }
-    .thing{visibility: hidden;}
-    .Youtube_cookies
+
+::-webkit-scrollbar
 {
-    background-color: #37415f;
-    width: 20%;
-    border-radius: 10px;
-    text-align: center;
-    box-shadow: 10px 10px 10px black;
-    position: relative;
-    left: 35%;
-    top: 20px;
-
+    background-image: linear-gradient(#181a27,#0e0f18, #101018);
+    border-radius: 5px;
 }
-    .Account,.Games_i_play{visibility:visible ;}
-    .Side
-    {   
-        position: relative;
-        bottom: 20px;
-        width: 100%;
-        height: 120px;
-        background-color: #1a2031;
-        text-align: center;
-        box-shadow: 10px 10px 10px black;
-        text-shadow: 5px 5px 5px black;
-        border-radius: 10px;
-        
-    }
-    .Side_main_meun
-    {
-        display: flex;
-        flex-direction: row;
-        gap: 20px;
-    
-    }
-    .Side_main_meun li
-    {
-        list-style: none;
-    }
-    .thing, .thing1
-    {
-    
-        background-color: #414c6e;
-        box-shadow: 5px 5px 5px black;
-        border-radius: 10px;
-        text-align: center;
-        z-index: 1;
-    }
-    .thing:hover, .thing1:hover
-    {
-        box-shadow: 10px 10px 10px black;
-    }
-    .Videos
-    {
-        position: relative;
-        top: 50px;
-        left: 0%;
-        width: 100%;
-        text-align: center;
-        display: flex;
-        flex-direction: column;
-        gap: 100px;
-        z-index: -1;
-    }
-    
-    .Videos button
-    {
-        width: 100%;
-        border: none;
-        border-radius: 10px;
-        box-shadow: 10px 10px 10px black;
-        background-color: #242b3f;
-        color: snow;
-        font-size: larger;
-        text-shadow: 10px 10px 10px black;
-        position: relative;
-        top: 4px;
-        z-index: 0;
-    }
-    .Videos div
-    {
-        background-color: #37415f;
-        border-radius: 10px;
-        box-shadow: 5px 5px 5px black;
-        height: 505px;
-    
-    }
-    .Main_background_one, .Main_background_two
-    {
-        z-index: 0;
-        position: relative;
-        top: 5px;
-        overflow-y: scroll;
-    }
-    .Videos div iframe
-    {
-        border-radius: 10px;
-        width: 30%;
-        height: 250px;
-    }
-    .Videos div iframe:hover
-    
-    {
-        box-shadow: 10px 10px 10px black;
-    }
-    .backgeouund_one_doom
-    {
-        position: relative;
-        top: 30px;
-        left: 0%;
-        width: 100%;
-    }
-    .backgeouund_two_Dishorner
-    {
-        position: relative;
-        bottom: 850px;
-        left: 0%;
-        width: 100%;
-    }
-    .backgeouund_two_Battlefield
-    {
-        position: relative;
-        bottom:1880px;
-        width: 100%;
-        left: 0%;
-
-    }
-    .Youtube_cookies
-    {
-      position: relative;
-      left: 0%;
-        width: 100%;
-        height:250px;
-    
-    }
-}
-@media (Max-Width: 629px) {
-
-.Home
+::-webkit-scrollbar-thumb
 {
-    visibility: hidden;
+    border-radius: 10px;
+    background-image: linear-gradient(#282b41,#202236, #1b1b27);
 }
 
-
-}

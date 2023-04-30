@@ -255,7 +255,7 @@ function testing_one(test_item_one, colour_of_body, colour_start_animation_one, 
         New_ul.appendChild(New_line)
     }
 }
-
+//don't need this right now 
 // var Hide = document.getElementById("Hide")
 // Hide.addEventListener("click", function all()
 // {

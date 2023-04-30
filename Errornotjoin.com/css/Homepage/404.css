@@ -1,0 +1,51 @@
+body
+{
+    background-color: #12151f;
+    color: snow;
+}
+a
+{
+    color: snow;
+}
+.Main_items
+{
+    background-image: linear-gradient(#353a58,#161725, #0d0d13);
+    width: 30%;
+    border-radius: 10px;
+    position: relative;
+    left: 30%;
+    text-align: center;
+    box-shadow: 10px 10px 100px  black;
+    height: 200px;
+}
+.Main_webste_footer
+{
+    position: relative;
+    top: 240px;
+    background-image: linear-gradient(#202336,#0e0f18, #12121a);
+    display: flex;
+    gap: 10%;
+}
+.Other_min_items
+{
+    position: relative;
+    top: 50px;
+}
+.Main_head
+{
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+    text-align: center;
+    background-color: #252b3f;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px black;
+    height: 70px;
+    border: none;
+    
+}
+.Items
+{
+    width: 100%;
+    background-color: #0d0d13;
+}

@@ -72,16 +72,9 @@ updates.addEventListener("click" , function cat()
     }
     else
     {
-      
         Items_updated.style.visibility = "hidden"
         Projects_buttons.style.visibility = "visible"
         updates.style.opacity = ""
         been_on = false
     }
 })
-function showing_the_items()
-{
-
-     
-    
-}
