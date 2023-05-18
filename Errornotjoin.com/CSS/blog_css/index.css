@@ -1,0 +1,77 @@
+.Main_Buttons_for_Updates button:hover
+{   
+    background-image: linear-gradient(#0b1320,#05080e, #060b13);
+    
+    text-shadow: 0px 10px 10px black;
+}
+.Main_items
+{
+    position: relative;
+    left: 0.5%;
+    bottom: 100px;
+    height: 1000px;
+}
+.Main_Buttons_for_Updates
+{
+    height: 50px;
+    background-image: linear-gradient(#0b2042,#091325, #0f1c30);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0px 10px 10px black;
+    display: flex;
+    flex-direction: row;
+    gap: 1%;
+    position: relative;
+    z-index: 1;
+}
+.Main_Buttons_for_Updates button, .Main_Buttons_for_Updates input
+{
+    border-radius: 5px;
+    position: relative;
+    top: 5px;
+    left: 20%;
+    height: 40px;
+    background-image: linear-gradient(#394658,#13171d, #0f1013);
+    color: snow;
+    width: 10%;
+    border: none;
+
+}
+.Main_Buttons_for_Updates input
+{
+    position: relative;
+    top: 5px;
+    height: 35px;
+}
+.The_blog_main_blog
+{
+    position: relative;
+    top: 20px;
+    width: 98%;
+    height: 900px;
+    left: 1%;
+    background-image: linear-gradient(#152944,#0c192b, #0e1d30);
+    z-index: 0;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction:column;
+    gap: 5%;
+}
+.The_main_item
+{
+    border-radius: 10px;
+    width: 99%;
+    background-image: linear-gradient(#1e293b,#0b101a, #0e1116);
+    display:flex ;
+    gap: 39%;
+    position: relative;
+    left: 0.5%;
+    
+}
+.The_main_item div
+{
+    position: relative;
+    left:2%;
+
+    top: 10px;
+}

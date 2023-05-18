@@ -1,0 +1,93 @@
+body
+{
+    background-color: #030b20;
+    display: grid;
+    grid-template-rows: 15% 70% 70%;
+    gap: 0%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+a
+{
+    color: snow;
+    text-underline-offset: red;
+}
+a:hover
+{
+    color: #0b398a;
+}
+
+.The_Website_main_footer,.Main_website_header,.Main_Items,.Main_items
+{
+    color: snow;
+    background-image: linear-gradient(#101b2e,#0a101b, #060b13);
+    border-radius: 10px;
+    box-shadow: 0px 10px 10px black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: max-content;
+    width: 99%;
+    position: relative;
+    left: 0%;
+}
+.The_Website_main_footer li
+{
+    list-style: none;
+}
+.Title{
+    background-image: linear-gradient(#0b1320,#05080e, #060b13);
+    box-shadow: 0px 10px 10px black;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 30%;
+    position: relative;
+    left: 35%;
+    bottom: 21px;
+    height: max-content;
+    z-index: 1;
+}
+.New_Title
+{
+    width: 95%;
+    background-image: linear-gradient(#060b13,#05080e, #060b13);
+    box-shadow: 0px 10px 10px black;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+.List_Div
+{
+    width: 100%;
+    border-radius: 10px;
+    position: relative;
+    bottom: 30px;
+    height: max-content;
+}
+.List_Div:hover
+{
+    text-align: center;
+    background-image: linear-gradient(#0b1320,#05080e, #060b13);
+    box-shadow: 10px 10px 10px black, -10px -10px 10px black;
+    text-shadow: 0px 10px 10px black;
+}
+.unline_things
+{
+    display: flex;
+    gap: 20%;
+}
+::-webkit-scrollbar
+{
+    border-radius: 5px;
+    background-image: linear-gradient(#0b1320,#05080e, #060b13);
+}
+::-webkit-scrollbar:hover, ::-webkit-scrollbar-thumb:hover
+{
+    box-shadow: -50px -0px 10px black;
+}
+::-webkit-scrollbar-thumb
+{
+    background-image: linear-gradient(#101b2e,#0a101b, #060b13);
+   
+}
