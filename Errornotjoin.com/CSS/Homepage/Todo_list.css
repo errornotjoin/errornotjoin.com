@@ -1,0 +1,116 @@
+.Main_ToDo_List_body
+{
+position: relative;
+left: 5%;
+bottom: 450px;
+background-color: #1c2030;
+border-radius: 10px;
+width:94.6%;
+box-shadow: black 10px 10px 10px;
+height: 600px;
+text-shadow: 5px 5px 5px black;
+}
+.Main_list_body{
+position: absolute;
+left: 25.9%;
+background-color: #292f46;
+border-radius: 10px;
+box-shadow: 5px 5px 5px black;
+width: 73%;
+height: 580px;
+text-align: center;
+}
+.Hide_div_two
+{
+  background-color:#292f46  ;
+  display: grid;
+  grid-template-rows: 10% 10%;
+  gap: 20px  ;
+  width: 25%;
+  box-shadow: 10px 10px 10px black;
+  border-radius: 10px;
+  text-align: center;
+}
+.Side_body_todo
+{
+    background-color: #282e3f;
+    box-shadow: 10px 10px 10px black;
+    border-radius: 10px;
+    height: 100px;
+}
+.Side_body_todo button
+{
+    position: relative;
+    bottom: 20px;
+}
+.Side_body_todo input
+{
+    position: relative;
+    bottom: 20px;
+}
+.sub_side_body_todo
+{
+    position: relative;
+    display: grid;
+    grid-template-rows:  10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+    background-color: #292f46;
+    height: 470px;
+    border-radius: 10px;
+    gap: 15px;
+    overflow-y: scroll;
+    top: 30px;
+}
+.sub_side_body_todo button
+{
+    font-size: larger;
+    text-shadow: 10px 10px 10px black;
+    border: none;
+    color: snow;
+    background-image: linear-gradient(to bottom right, #545f83 ,#22273a,#181c29  );
+    box-shadow: black 5px 5px 5px ;
+    border-radius: 5px;
+}
+.sub_side_body_todo button:hover
+{
+    background-image: linear-gradient(to bottom right, #181c29 ,#22273a, #545f83 );
+    box-shadow: black 10px 10px 10px;
+}
+.Main_name_of_list
+{
+    background-color: #333a57;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+    position: relative;
+    bottom: 20px;
+}
+@media (max-width: 771px) {
+
+    .Main_list_body
+    {
+        position: absolute;
+        top: 205px;
+        width: 100%;
+        left: -0%;
+    }
+    .Side_body_todo
+    {
+        position: absolute;
+    
+        width: 100%;
+    }
+    .sub_side_body_todo
+    {
+        position: absolute;
+        width: 100%;
+        height: 100px;
+        top: 100px;
+        grid-template-columns: 30% 30% 30% 30% 30% 30% 30% 30% 30% 30%;
+        grid-template-rows: none;
+        box-shadow: black 10px 10px 10px;
+        text-overflow: ellipsis;
+    }
+    .sub_side_body_todo button
+    {
+      word-wrap: break-word;
+    }
+}

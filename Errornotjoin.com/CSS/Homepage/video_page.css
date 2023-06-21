@@ -1,0 +1,130 @@
+.Side
+{
+    position: relative;
+    width: 10%;
+    top: 10px;
+    height: 1000px;
+    background-image: linear-gradient(#202336,#0e0f18, #12121a);
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    box-shadow: 10px 0px 50px black;
+    text-align: center;
+    z-index: 2;
+    max-zoom: 100px;
+    
+}
+.Side_main_meun
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
+}
+.Side li
+{
+    text-align: start;
+    list-style: none;
+}
+.Youtube_cookies,.Main_body_for_the_videos, .backgeouund_one_doom
+{
+   position: relative;
+   left: 10%;
+   background-image: linear-gradient(#181a27,#0e0f18, #101018); 
+   bottom: 900px;
+   text-align: center;
+   width: 95%;
+   height: 1000px;
+   z-index: 1;
+
+   border-bottom-right-radius: 10px;
+   border-top-right-radius: 10px;
+
+}
+.backgeouund_one_doom
+{
+    position: relative;
+    bottom: 990px;
+}
+.Main_body_for_the_videos
+{
+    position: relative;
+    bottom: 990px;
+    height: 999px;
+    width: 90%;
+    overflow-y: scroll;
+}
+.Main_text
+{
+    background-color: #12121a;
+    color: #fcfffc;
+}
+.Button_One
+{
+    width: 100%;
+    background-image: linear-gradient(#282b41,#202236, #1b1b27);
+    box-shadow: 0px 10px 10px black;
+    border: none;
+    color: snow;
+}
+.Main_background_one
+{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 15%;
+    position: relative;
+    top: 20px;
+    gap: 5%;
+}
+.options_buttons 
+{
+    background-image: linear-gradient(#282b41,#202236, #1b1b27);
+    box-shadow: 0px 10px 10px black;
+    display: flex;
+    gap: 10%;
+    text-align: center;
+    align-items: center;
+}
+.options_buttons button
+{
+    position: relative;
+    left: 25%;
+    background-image: linear-gradient(#181a27,#0e0f18, #101018); 
+    color: snow;
+    height: 50px;
+    border: none;
+}
+.options_buttons button:hover,.All_Videos iframe:hover
+{
+    box-shadow: 0px 10px 10px black;
+    background-image: linear-gradient(#202336,#0e0f18, #12121a);
+}
+.The_Name
+{
+    background-color: #202236;
+    font-size: 30px;
+    
+}
+.All_Videos
+{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% ;
+    gap: 5%;
+
+}
+.All_Videos iframe, .Main_background_one iframe
+{
+    position: relative;
+    left: 10%;
+    border-radius: 10px;
+    width: 100%;
+}
+
+::-webkit-scrollbar
+{
+    background-image: linear-gradient(#181a27,#0e0f18, #101018);
+    border-radius: 5px;
+}
+::-webkit-scrollbar-thumb
+{
+    border-radius: 10px;
+    background-image: linear-gradient(#282b41,#202236, #1b1b27);
+}
+

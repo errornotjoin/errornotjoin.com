@@ -9,61 +9,84 @@
     <title>Divs - ErrorNotjoin</title>
 </head>
 <body>
-    <div id="The_Divs_jail">
+    <style id="The_StyleSheet_Jail">
 
+    </style>
+    <div id="The_Divs_jail" >
+        <div id="On_start_div" class="The_Divs_jail"></div>
+        <div id="Go_Start_div"></div>
     </div>
     <main class="Main_itemsss">
-        <div class="Input_box">
-            
+        <div class="Input_box" id="The_Update">
+            <div id="Update_Log" class="Update_Log">
+                <h1>Hello World</h1>
+            </div>
+            <div class="Input_and_button_for_Update_log">
+                <input placeholder="Type Help " id="For_the_user">
+                <button id="Submit_by_User">Submit</button>
+            </div>
         </div>
         <div class="The_inputs_and_buttons">
-            
-            <div >
-                <h1>The Colours</h1>
-                <div class="The_Mian_colours">
-
+            <div class="The_UNDER_DIV">
+                <div >
+                    <h1>The Colours</h1>
+                    <div class="just_for_name">
+                        <div class="The_Mian_colours">
+                            <input type="color" id="Html_Background">
+                            <input type="color" id="The_colour_one" value="#1c3050">
+                            <input type="color" id="Div_Two" value="#131e35">
+                            <input type="color" id="Div_Three" value="#0c1625">
+                            <input type="color" id="An_one">
+                            <input type="color" id="An_two">
+                            <input type="color" id="TextContent_colours">
+                        </div>
+                        <div class="The_text_for_colours">
                             <h2 class="New_New_titles">The Background</h2>
-                            <input type="color" value="#030b20">
                             <h2 class="New_New_titles">Div Ones</h2>
-                            <input type="color">
                             <h2 class="New_New_titles">Divs Two</h2>
-                            <input type="color">
+                            <h2 class="New_New_titles">Divs Three</h2>
                             <h2 class="New_New_titles">Start animation </h2>
-                            <input type="color">
                             <h2 class="New_New_titles">Mid animation</h2>
-                            <input type="color">
+                            <h2 class="New_New_titles"> TextContent colours</h2>
+                        </div>
+                    </div>
 
                 </div>
-            </div>
-            <div >
-                <h1>The Numbers</h1>
-                <div class="The_numbers">
-                    <input placeholder="Hight" type="number">
-                    <input placeholder="Width" type="number">
-                    <input placeholder="Timer Speed" type="number">
-                    <input placeholder="How Many Divs" type="number">
+                <div >
+                    <h1>The Numbers</h1>
+                    <div class="The_numbers">
+                        <input placeholder="Hight  px" id="Divs_Hight" type="number">
+                        <input placeholder="Width %" id="Divs_wdith" inputmode="kana" type="number">
+                        <input placeholder="Timer Speed" id="Timer_speed" type="number">
+                        <input placeholder="How Many Divs" id="How_Many_Divs"  type="number">
+                    </div>
+                </div>
+                <div>
+                    <h1>Checks </h1>
+                    <div class="The_Main_Checks">
+                        <legend>Show Numbers <input type="checkbox" id="Show_Numbers" checked ></legend>
+                        <legend>Show Update log <input type="checkbox" checked id="Show_Update_log"  ></legend>
+                        <legend>Show Options <input type="checkbox" checked></legend>
+                        <legend>Random divs Number<input type="checkbox" id="Random" checked></legend>
+                    </div>
+                </div>
+                <div >
+                    <h1>The Buttons</h1>
+                    <div class="The_main_Buttons">
+                        <button id="defaults">defaults fill inputs values </button>
+                        <button id="Random_Buttom">Random inputs values</button><br>
+                        <button><h3>Reset</h3></button>
+                        <button><h3>Stop</h3></button>
+                        <button id="Start_Button"><h3>Go</h3></button>
+                    </div>
+    
                 </div>
             </div>
-            <div>
-                <h1>Checks </h1>
-                <div class="The_Main_Checks">
-                    <legend>Show Numbers <input type="checkbox" checked ></legend>
-                    <legend>Show Update log <input type="checkbox" checked ></legend>
-                    <legend>Show Options <input type="checkbox" checked></legend>
-                </div>
-            </div>
-            <div >
-                <h1>The Buttons</h1>
-                <div class="The_main_Buttons">
-                    <button><h3>Reset</h3></button>
-                    <button><h3>Stop</h3></button>
-                    <button><h3>Go</h3></button>
-                </div>
-
-            </div>
+            
             
         </div>
        
     </main>
+    <script src="Making_the_divs.js"></script>
 </body>
 </html>

@@ -91,3 +91,18 @@ a:hover
     background-image: linear-gradient(#101b2e,#0a101b, #060b13);
    
 }
+@media(max-width:1300px)
+{
+    .unline_things
+    {
+        position: relative;
+        left: 1%;
+        display: flex;
+        flex-direction: column;
+    }
+    .List_Div
+    {
+        background-image: linear-gradient(#0b1320,#05080e, #060b13);
+        width: 95%;
+    }
+}

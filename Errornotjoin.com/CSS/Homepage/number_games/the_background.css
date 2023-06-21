@@ -1,0 +1,193 @@
+.number_games_main_background
+{
+    background-color: #39405a;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px black;
+    position: relative;
+    bottom: 200px;
+    left: 17%;
+    height: 500px;
+    width: 80%;
+    
+}
+.number_games_main_header
+{
+    background-color: #253c91;
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 40%;
+    flex-grow:100%;
+    flex-shrink: 100%;
+    text-align: center;
+    font-size: small;
+    text-shadow: 5px 5px 5px black;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px black;
+    z-index: 2;
+}
+.number_games_main_header button
+{
+    height: 20px;
+    background-color: #ff0000d2;
+    border: none;
+    border-radius: 5px;
+    color: snow;
+    text-shadow: 10px 10px 10px black;
+}
+.number_games_main_header h1, .number_games_main_header p
+{
+    position: relative;
+    bottom: 25px;
+}
+.number_games_main_header p
+{
+    bottom: 10px;
+}
+.Main_side_window_for_the_wins_and_loss  
+{
+    width: 20%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #2e3549;
+    height: 540px;
+    border-radius: 10px;
+    z-index: 1;
+    box-shadow: 5px 5px 5px black;
+    position: relative;
+    right: 21%;
+    bottom: 100px;
+    text-align: center;
+}
+.Main_side_window_for_chid
+{
+    display: flex;
+    gap: 20px;
+    text-shadow: 10px 10px 10px black;
+    background-color: #212635;
+    border-radius: 10px;
+}
+
+.Main_side_window_for_the_wins_and_loss2
+{
+    width: 95%;
+    height: 470px;
+    background-color: #404966;
+    border-radius: 10px;
+    position: relative;
+    left: 5%;
+    z-index: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    overflow-y: scroll;
+}
+.Main_body_of_the_game
+{
+    position: relative;
+    left: 37%;
+    width: 20%;
+    text-align: center;
+}
+.Footer_Body_of_the_game
+{
+    width: 80%;
+    background-color: #212635;
+    position: relative;
+    bottom: 210px;
+    left: 17%;
+    height: 50px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px black;
+}
+.Footer_Body_of_the_game input 
+{
+    position: relative;
+    top: 10px;
+    width: 90%;
+    border-radius: 10px;
+    border: none;
+    height: 30px;
+    background-color: #39405a;
+    color: snow;
+    font-size: larger;
+    text-align: center;
+}
+.Footer_Body_of_the_game button
+{
+    position: relative;
+    top: 6px;
+    left: 0.2%;
+    border-radius: 5px;
+    border: none;
+    background-color: #39405a;
+    color: snow;
+    width: 9%;
+    height: 30px;
+}
+
+.Main_side_window_for_chid:hover,
+.Footer_Body_of_the_game input:hover,
+.Footer_Body_of_the_game button:hover,
+.Main_side_window_for_the_wins_and_loss2 div:hover
+{
+    box-shadow: 10px 10px 10px black;
+    
+}
+.Main_side_window_for_the_wins_and_loss2 div
+{
+    position: relative;
+    top: 5px;
+    left:5%;
+    width: 90%;
+    background-color: #3c9621;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px black;
+    gap: 10px;
+    text-align: center;
+    overflow-wrap: break-word;
+}
+@media (max-width:1239px) {
+    .number_games_main_background
+    {
+        position: relative;
+        bottom: 500px;
+        width: 100%;
+        left: 0%;
+    }
+    .number_games_main_header
+    {
+        display:flex;
+        gap: 30%;
+    }
+    .Footer_Body_of_the_game
+    {
+        position: relative;
+        bottom: 550px;
+        width: 100%;
+        left: 0%;
+    }
+    .Main_side_window_for_the_wins_and_loss  
+    {
+        position: absolute;
+        top: 520px;
+        width: 100%;
+        height: 300px;
+        left: 0.5%;
+
+    }
+    .Main_side_window_for_the_wins_and_loss2
+    {
+        height: 220px;
+        left: 3%;
+    }
+    .Main_side_window_for_chid
+    {
+        display: flex;
+        gap: 30%;
+    }
+    
+}

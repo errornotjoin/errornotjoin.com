@@ -1,0 +1,146 @@
+body
+{
+    background-color: #12151f;
+    color: snow;
+}
+a
+{
+    color: snow;
+}
+/*This Need To Be The Same As THe HOME PAGE(index.html)*/
+.Main_head
+{
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+    text-align: center;
+    background-color: #252b3f;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px black;
+    height: 70px;
+    border: none;
+    
+}
+.side_things
+{
+    background-color: #232a41;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px black;
+    display: flex;
+    gap: 10px;
+    position: relative;
+    top: 20px;
+    font-size: larger;
+    height: 100px;
+   
+    z-index: 3;
+}
+.side_things li 
+{
+    background-color: #37415f;
+    border-radius: 5px;
+    height: 100px;
+    text-align: center;
+}
+.side_things li a 
+{
+    position: relative;
+    top: 30px;
+}
+.side_things li:hover
+{
+    box-shadow: 10px 10px 10px black;
+    background-color: #414c6e;
+}
+.side_things li
+{
+    list-style: none;
+}
+.Main_head button
+{
+    position: relative;
+    top: 5px;
+    background-color: #252b3f;
+    border: none;
+    color: snow;
+    height: 60px;
+    font-size: larger;
+}
+.list_updates ul li{
+    list-style: none;
+}
+.list_updates
+{
+    position: relative;
+    top: 15px;
+    background-color: #414c6e;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+    
+    font-size: 15px;
+}
+.Main_Projects_head, .Other_things_main
+{
+  
+    position: relative;
+    box-shadow: 10px 10px 10px black;
+    background-color: #252b3f;
+    border-radius: 10px;
+    display:grid;
+    grid-template-columns: 45% 50%;
+    gap: 10px;
+    z-index: 6;
+    
+}
+.Main_Projects_head li, .Other_things_main li
+{
+    list-style: none ;
+}
+.Main_Projects_head button, .Other_things_main a
+{
+    
+    background-color: #37415f;
+    width: 100%;
+    border-radius: 5%;
+    box-shadow: 5px 5px 5px black;
+}
+.list_updates small
+{
+    width: 100%;
+    
+}
+.Main_Projects_head button:hover, .Other_things_main a:hover
+{
+    box-shadow: 10px 10px 10px black;
+    background-color: #414c6e;
+}
+.Other_head
+{
+    position: relative;
+    left: 10%;
+    flex-grow: 1;
+    display: flex;
+}
+.Main_smail_head
+{
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px black;
+    position: absolute;
+    gap: 15px ;
+    background-color: #37415f;
+   
+}
+.Main_smail_head button
+{
+    width: 100%;
+    border-radius: 5%;
+    background-color: #232a41;
+    border:none;
+    color: snow;
+    font-size: larger;
+}
+
+/*The End*/

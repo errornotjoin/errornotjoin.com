@@ -31,8 +31,8 @@ Start_button.addEventListener("click", function Starting_the_timer()
     function Saveing_Inputs_To_int()
     {
         Saved_Hours_input = The_Hours_Inputs.value
-        Saved_Minuter_input= The_Minuter_Inputs.value
-        Saved_Seconds_input= The_Seconds_Input.value
+        Saved_Minuter_input = The_Minuter_Inputs.value
+        Saved_Seconds_input = The_Seconds_Input.value
         The_Hours_Inputs.disabled = "true"
         The_Minuter_Inputs.disabled = "true"
         The_Seconds_Input.disabled = "true"

@@ -63,3 +63,21 @@ input:hover,button:hover
 {
     height: 300px;    
 }
+@media(max-width:1416px)
+{
+    .Main_item
+    {
+        width: 95%;
+        position: relative;
+        left: 1%;
+    }
+}
+@media (max-width:562px) {
+
+    .Main_item
+    {
+        width: 100%;
+        position:relative;
+        left: 0%;
+    }
+}

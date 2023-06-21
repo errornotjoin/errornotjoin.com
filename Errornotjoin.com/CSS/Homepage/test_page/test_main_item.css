@@ -1,0 +1,131 @@
+a
+{
+    color: snow
+}
+body
+{
+    background-color: #12121a;
+    color: snow;
+}
+.main_div
+{
+    background-image: linear-gradient(#202336,#0e0f18, #12121a);
+    border-radius: 10px;
+    width: 95%;
+    position: relative;
+    left:3%;
+    box-shadow: 10px 10px 100px black;
+
+}
+.what
+{
+        display: grid;
+    grid-template-columns: 30% 40% 30%;
+    text-align: center;
+    gap:0.79%;
+}
+.H1_title
+{ 
+    
+    background-image: linear-gradient(#1a1c2c,#0e0f18, #0b0b0f);
+    text-align: center;
+    position: relative;
+    left: 25%;
+    width: 50%;
+    bottom: 22px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0px 10px 10px black;
+    color: snow;
+}
+.Meun,.Projects,.New_Blogs, .Video
+{
+    
+    background-image: linear-gradient(#333853,#1f2135, #262636);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: 95%;
+    text-align: center;
+    height: 400px;
+    overflow-y: scroll;
+    
+}
+.Projects_button, .bottom_of_new_blogs, .Link_items
+{
+   
+    background-color: #131420;
+    width:95%;
+    position: relative;
+    left: 2.5%;
+    border-radius: 10px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.List_buttonss , .Nothing_here, .Link_items a , .Youtube_cookies
+{
+    background-image: linear-gradient(#1a1c2c,#0e0f18, #0b0b0f);
+    width: 95%;
+    height: max-content;
+    position: relative;
+    left: 3%;
+    border-radius: 10px;
+}
+.Projects
+{
+    border-radius: 0px;
+}
+.New_Blogs
+{
+    border-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.List_buttonss:hover , .Nothing_here:hover, .Link_items a:hover 
+{
+    box-shadow: 0px 10px 10px black;
+    background-image: linear-gradient(#202336,#0e0f18, #12121a);
+}
+
+.Main_webste_footer
+{
+    position: relative;
+    top: 240px;
+    background-image: linear-gradient(#202336,#0e0f18, #12121a);
+    display: flex;
+    gap: 10%;
+}
+::-webkit-scrollbar
+{
+    background-image: linear-gradient(#181a27,#0e0f18, #101018);
+    border-radius: 5px;
+}
+::-webkit-scrollbar-thumb
+{
+    border-radius: 10px;
+    background-image: linear-gradient(#282b41,#202236, #1b1b27);
+}
+.Main_header_website
+{
+    width: 100%;
+    background-image: linear-gradient(#202336,#0e0f18, #12121a);
+    height: 50px;
+    position: relative;
+    bottom: 20px;
+    border-radius: 10px;
+
+}
+@media (max-width: 768px) {
+    .what
+    {
+        display: flex;
+        flex-direction: column; 
+        gap: 30px;
+    }
+    .Meun,.Projects,.New_Blogs, .Video
+    {
+        position: relative;
+        left:3%;
+    }
+}

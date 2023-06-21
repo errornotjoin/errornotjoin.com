@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="The_game_css/index.css" rel="stylesheet">
+    <title>Random Number Game - ErrorNotjoin</title>
+</head>
+<body>
+    <header>
+        <a href="https://errornotjoin.com/">
+            <h1>
+                    Go Back 
+            </h1>
+        </a>
+    </header>
+    <main class="Main_body">
+        <div class="Level_picker" id="Level_picker" >
+            <header>
+                    <h1>Pick A Level</h1>
+            </header>
+            <main class="The_level_picker_buttons">
+                    <button onclick="User_picked_a_level('easy')">
+                        <h1>
+                            <u>
+                            Easy Mode
+                            </u>
+                        </h1>
+
+                        <ul>
+                            <li>
+                                Random numbers gose up to : 10<br>
+                            </li>
+                            <li>
+                                Lifes = 20 
+                            </li>
+                            <li>
+                                Timer start at : 20m
+                            </li>
+                            <li>
+                                levels = 15
+                            </li>
+                        </ul>
+                    </button>
+                    <button onclick="User_picked_a_level('mid')">
+                        <h1>
+                            <u>
+                                Mid Mode
+                            </u>
+                        </h1>
+                        
+                        <ul>
+                            <li>
+                                Random numbers gose up to : 20
+                            </li>
+                            <li>
+                                Lifes = 10 
+                            </li>
+                            <li>
+                                Timer start at : 15m
+                            </li>
+                            <li>
+                                levels = 25
+                            </li>
+                        </ul>
+                    </button>
+                    <button onclick="User_picked_a_level('Hard')">
+                        <h1>
+                            <u>
+                                Hard Mode
+                            </u>
+                        </h1>
+                            <ul>
+                                <li>
+                                    Random numbers gose up to : 40
+                                </li>
+                                <li>
+                                    Lifes = 5 
+                                </li>
+                                <li>
+                                    Timer start at : 10m
+                                </li>
+                                <li>
+                                    levels = 35
+                                </li>
+                            </ul>
+                    </button>
+            </main>
+            <footer>
+            
+            </footer>
+        </div>
+        <div class="The_game" style="display: none;" id="The_game">
+            <header class="Main_button">
+                    <button id="back" >
+                        Back  
+                    </button >    
+                    <button id="Start">
+                            Start 
+                    </button>
+                    
+                    <button style="display: none;" id="Stop">
+                            Stop 
+                    </button>
+                    <p id="Player_lives">
+                        Lives
+                        <br>0
+
+                    </p>
+                    <p id="Player_timer">
+                        timer
+                        <br>
+                        0:00
+                    </p>
+                    <p id="Player_level">
+                        levels 
+                        <br>
+                        0/10
+                    </p>
+            </header>
+            <main style="text-align: center;">
+                <h1 id="Main_text">
+                    Start The Game
+                </h1>
+            </main>
+            <footer class="Main_input">
+                <input placeholder="Enter You Awser Here " id="Main_input" type="number" min="0" >
+                <button id="Main_enter">
+                    Enter 
+                </button>
+            </footer>
+        </div>
+        <div class="End_of_the_game" style="display: none;">
+            <header>
+
+            </header>
+            <main>
+
+            </main>
+            <footer>
+
+            </footer>
+        </div>
+    </main>
+    <footer class="Main_webste_footer">
+        <div>
+            <h1>This Is portfolio Website</h1>
+            <p>
+                This Is Made By ErrorNotjoin<br>
+                I Have Another website <a href="https://earnest-elf-8ce72c.netlify.app/">ErrorNotJoin.Online</a><br>
+                Made in Scotland
+            </p>
+        </div>
+        <div>
+
+        </div>
+        <div>
+            
+        </div>
+        <div>
+            <h1> Here Are Links: </h1>
+            <ul>
+                <li><a href="https://twitter.com/ErrornotjoinJ" target="_blank">Twitter</a></li>
+                <li><a href="https://discord.gg/jQKwWg2UkZ" target="_blank">Discord</a></li>
+                <li><a href="https://www.youtube.com/channel/UC9BVbQ6c92elUeUIJEOFnJg" target="_blank">Youtube</a></li>
+                <li><a href="https://earnest-elf-8ce72c.netlify.app/" target="_blank">MY Other Website</a></li>
+            </ul>
+        </div>
+        <div>
+
+        </div>
+        <div>
+            
+        </div>
+        <div>
+            <h1>Note:</h1>
+            <p>This Website Dose Not Have any cookies<br> <strong>AND</strong><br> Keep Any Date From You </p>
+        </div>
+    </footer>
+    <script src="The_game_js/the_main_code_the_game.js"></script>
+</body>
+</html>

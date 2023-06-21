@@ -1,0 +1,70 @@
+.main_background
+{
+    width: 60%;
+    position: absolute;
+    left: 20%;
+    top: 20%;
+    border-radius: 10px;
+    background-color: rgb(90, 88, 88);
+
+    color: #000000;
+}
+.Sec_background
+{
+    background-color: rgb(148, 144, 144);
+    width: 98%;
+    border-radius: 10px;
+    position:relative;
+    left: 0.5%;
+    bottom: 10px;
+    height: 400px;
+    box-shadow: 5px 5px 5px black;
+    text-shadow: 10px 10px 10px black;
+    text-align: center;
+    display: flex;
+    gap: 5px;
+}
+.Sec_background div
+{
+    opacity: 0.8;
+    width: 100%;
+    border: 1px black solid;
+    display: grid;
+    gap: 20px;
+    grid-template-rows: 20% 10% 10% 10% 10% 10%;
+
+    border-radius: 5px;
+}
+.Sec_background div:hover
+{
+    opacity: 1;
+    box-shadow: 10px 10px 10px black;
+}
+.Sec_background div button
+{
+    border: none;
+    border-radius: 10px;
+}
+.Main_sub_div
+{
+    width: 10%;
+    top: 12px;
+    position: relative;
+    left: 1%;
+    color: black;
+    background-color: rgb(192, 186, 186);
+    border-radius: 5px;
+    box-shadow: 5px -5px 5px black;
+    
+}
+@media (max-width: 1091px) {
+    .Sec_background
+    {
+        flex-wrap: wrap;
+        overflow-y: scroll;
+    }
+    .Sec_background div
+    {
+        opacity: 1;
+    }
+}

@@ -1,44 +1,41 @@
-.Main_items
+.Main_Items
 {
+    height: 500px;
+}
+.Main_itemss
+{
+    position: relative;
     display: flex;
-    height: 450px;
-    flex-direction: row;
+    gap: 5%;
+    left: 0.5%;
+   
 }
 .Main_divs
 {
-    position: relative;
-    left: 1%;
-    width: 100%;
+    width: 95%;
 }
-button:hover
-{
-    background-image: linear-gradient(#0b1320,#05080e, #060b13);
-    box-shadow: 0px 10px 10px black, -0px -10px 10px black;
-    text-shadow: 0px 10px 10px black;
-}
-li{list-style: none;}
 .The_Main_ul_for_proJects
 {
-    background-image: linear-gradient(#0b1422,#111c30, #0f1c30);
-    width: 85%;
-    position: relative;
-    left: 5%;
-    bottom: 20px;
-    display: grid;
+    display: flex;
     flex-direction: column;
-    gap: 15%;
-    height: 350px;
-    border-radius: 10px;
-    box-shadow: 0px 10px 10px black;
+    width: 95%;
     overflow-y: scroll;
+    height: 300px;
+    gap: 5%;
+    background-image: linear-gradient(#0d1625,#0a1120, #040e1f);
+    position: relative;
+    bottom: 15px;
+    border-radius: 10px;
 }
 .main_Buttons_for_projects
 {
     width: 95%;
-    position: relative;
-    
     border-radius: 10px;
-    background-image: linear-gradient(#060b13,#05080e, #060b13);
+    border: none;
+    background-image: linear-gradient(#132136,#0a101b, #09101b);
     color: snow;
-
+}
+.main_Buttons_for_projects:hover
+{
+    background-image: linear-gradient(#060b13,#05080e, #060b13);
 }

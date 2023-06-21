@@ -1,0 +1,285 @@
+body
+{
+    background-color: #12151f;
+    color: snow;
+}
+a
+{
+    color: snow;
+}
+.Main_head
+{
+    display: flex;
+    gap: 10px;
+    text-align: center;
+    background-color: #252b3f;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px black;
+    height: 70px;
+    border: none;
+}
+.Main_head button
+{
+    position: relative;
+    top: 5px;
+    background-color: #252b3f;
+    border: none;
+    color: snow;
+    height: 60px;
+}
+.list_updates ul li{
+    list-style: none;
+}
+.list_updates
+{
+    position: relative;
+    top: 15px;
+    background-color: #414c6e;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+    height: 70px;
+    font-size: 15px;
+}
+.Main_Projects_head, .Other_things_main
+{
+  
+    position: relative;
+    box-shadow: 10px 10px 10px black;
+    background-color: #252b3f;
+    border-radius: 10px;
+    display:grid;
+    grid-template-columns: 45% 50%;
+    gap: 10px;
+    z-index: 6;
+}
+.Main_Projects_head li, .Other_things_main li
+{
+    list-style: none ;
+}
+.Main_Projects_head button, .Other_things_main a
+{
+    
+    background-color: #37415f;
+    width: 100%;
+    border-radius: 5%;
+    box-shadow: 5px 5px 5px black;
+}
+.list_updates small
+{
+    width: 100%;
+    
+}
+.Main_Projects_head button:hover, .Other_things_main a:hover
+{
+    box-shadow: 10px 10px 10px black;
+    background-color: #414c6e;
+}
+.Other_head
+{
+    position: relative;
+    left: 10%;
+    flex-grow: 1;
+    display: flex;
+}
+.Main_smail_head
+{
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px black;
+    position: absolute;
+    gap: 15px ;
+    background-color: #37415f;
+   
+}
+.Main_smail_head button
+{
+    width: 100%;
+    border-radius: 5%;
+    background-color: #232a41;
+    border:none;
+    color: snow;
+    font-size: larger;
+
+}
+.Side_porjects, .side_things
+{
+    position: absolute;
+    left: 100%;
+    top: 91px;
+    background-color: #37415f;
+    width: max-content;
+    box-shadow: 10px 10px 10px black;
+    border-radius: 5px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+.Side_porjects li, .side_things li
+{
+    list-style:none ;
+} 
+.side_things a
+{
+    font-size: larger;
+
+}
+.Side_porjects button
+{
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+    height: 40px;
+    gap: 20px;
+    background-color: #252b3f;
+    color: snow;
+}
+.Side_porjects button:hover, .number_games_main_header button:hover
+{
+    box-shadow: 10px 10px 10px black ;
+    background-color: #414c6e;
+}
+
+.list_updates
+.Some_buttons button:hover, .Projects_buttons button:hover
+{
+    opacity: 1;
+    box-shadow: 10px 10px 10px black;
+}
+.Items_updated
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    box-shadow: 5px 5px 5px black;
+    border-radius: 10px;
+    height: 400px;
+    background-color: #22273a;
+    position: relative;
+}
+.Projects
+{
+    position: relative;
+    top: 50px;
+    background-color: #252b3f;
+    height: 430px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px black;
+    border-radius: 10px;
+}
+.Name_of_Projects
+{
+    text-align: center;
+    background-color: #252b3f;
+    height: max-content;
+    box-shadow: 10px 10px 10px black;
+     height: 100px;
+     border-radius: 10px;
+     z-index: 1;
+}
+.Items_updated
+{
+    height: 500px;
+    display: grid;
+    grid-template-columns: 50% 48%;
+    gap: 1%;
+    position: relative;
+    z-index: 0;
+ 
+}
+.Items_been_update , .items_not_being_update
+{
+    position: relative;
+    left: 0.5%;
+    background-color: #12151f;
+    height: 400px;
+    border-radius: 10px;
+    overflow-y: scroll;
+}
+.Items_been_update div , .items_not_being_update div
+{
+    background-color: #232a41;
+    height: 100px;
+    border-radius: 5px;
+    width: 99%;
+    position: relative;
+    left: 0.5%;
+}
+.Items_been_update div p, .items_not_being_update div p
+{
+    height: 95px;
+    background-color: #323a53;
+    border-radius: 5px;
+    width: 95%;
+    position: relative;
+    left: 2%;
+    top: 2px;
+    text-align: center;
+    font-size: xx-large;
+}
+.Items_been_update p:hover,.items_not_being_update p:hover, .Projects_buttons button:hover
+{
+    box-shadow: 10px 10px 10px black;
+    background-image:linear-gradient( #515e86, #2a3147);
+}
+.Footer_Of_The_Website
+{
+    position: relative;
+    top: 300px;
+    width: 98%;
+    text-align: center;
+    background-color: #22273a;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px black;
+    font-size: larger;
+}
+.Footer_Of_The_Website li
+{
+    list-style: none;
+}
+.Projects_buttons
+{
+    position: relative;
+    top:20px;
+    left: 0.5%;
+    display: grid;
+    grid-template-columns: 50% 43%;
+    gap: 4%;
+    grid-template-rows: 50% 50%;
+    color: snow;
+}
+.Projects_buttons button
+{
+    width: 100%;
+    background-color: #37415f;
+    border: none;
+    border-radius: 10px;
+    color: snow;
+    height: max-content;
+}
+.list_updates
+{
+    width: 95%;
+    position: relative;
+    left: 2%;
+    top: -5px;
+    box-shadow: 0px 0px 0px black;
+    background-color: #12151f;
+}
+@media (max-width: 741px) {
+    
+    .Home,.errornotjoin
+    {
+        visibility: hidden;
+        width: 0%;
+        padding: 0%;
+        margin: 0%;
+    }
+   .Projects
+   {
+    height: 450px;
+   }
+}
+
