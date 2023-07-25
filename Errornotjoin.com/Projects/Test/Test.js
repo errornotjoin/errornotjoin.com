@@ -113,4 +113,3 @@ function rotate_right()
     console.log(Player_rotate_left);
    
 }
-Player.co

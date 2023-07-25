@@ -101,7 +101,7 @@ function MAking_it_more_Random_One(y)
 {
     if(Done_Litters == true)
     {
-                            var max = Math.round(Math.random() * letters.length  -1 )
+            var max = Math.round(Math.random() * letters.length  -1 )
             if(max < 0 )
             {
                 max++ 

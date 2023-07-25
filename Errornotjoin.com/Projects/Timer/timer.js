@@ -47,18 +47,18 @@ Start_button.addEventListener("click", function Starting_the_timer()
             {
                 Saved_Seconds_input = 59
                 Saved_Minuter_input--
-                DRY_THING()
+                CHEESE()
             }
             else if(Saved_Minuter_input == 0 && Saved_Hours_input > 0)
-            {
-                Saved_Minuter_input = 59
+            { 
                 Saved_Hours_input--
+                Saved_Minuter_input = 59
                 Saved_Seconds_input = 59
-                DRY_THING()
+                CHEESE()
             }
             else
             {
-                DRY_THING()
+                CHEESE()
                 clearTimeout(Empty_timer)
             }
 
@@ -66,10 +66,10 @@ Start_button.addEventListener("click", function Starting_the_timer()
         else
         {
             Saved_Seconds_input--
-            DRY_THING()
+            CHEESE()
         }
     }
-    function DRY_THING()
+    function CHEESE()
     {
         Empty_timer = setTimeout(Taking_away_time, 1000)
         
