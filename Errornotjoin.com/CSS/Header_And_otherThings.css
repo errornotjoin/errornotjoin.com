@@ -29,6 +29,7 @@ a:hover
     width: 99%;
     position: relative;
     left: 0%;
+    z-index: 1;
 }
 .The_Website_main_footer li
 {
