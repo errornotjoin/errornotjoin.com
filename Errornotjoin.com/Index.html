@@ -5,56 +5,87 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="CSS/Header_And_otherThings.css"rel="stylesheet" >
-    <link href="CSS//index_css/index.css"rel="stylesheet" >
+    <link id="The_Css_link" href="CSS//index_css/index.css"rel="stylesheet" >
     <title>Home - ErrorNotJoin</title>
 </head>
-<body >
+<body>
     <header class="Main_website_header">
         <a href="Index.html"><h1>ErrorNotJoin.com</h1></a>
     </header>
-        <nav class="Other_Header">
-            <a href="#">home</a>
-            <a href="blog.html">Blog</a>
-        </nav>
         <main class="Main_Items_For_Buttons">
-            <button class="Thing_for_the_buttonss">
-                <h1 >Projects</h1>
-            </button>
-            <div class="Other_Items_For_the_button">
-                <a>
-                    <button>
-                        <h2>
-                            the Great Div Maker
-    
-                        </h2>
-                    </button>
-
-                </a>
-                <a>
-                    <button>
-                      <h2>
-                        Password Maker
-                    </h2>  
-                    </button>
+            <section>
+                <button id="The_Main_button_1" onclick="getting_The_button_Name(1)" class="Thing_for_the_buttonss_And_Settings">
+                    <h1>Projects</h1>
+                </button>
+                
+                <nav class="Other_Items_For_the_button" id="The_Background_1" style="display: none;">
                     
-                </a>
-                <a>
-                    <button>
-                      <h2>
-                        Set The Timer
-                    </h2>  
-                    </button>
+                    <a href="Projects/Makes_Divs/Divs.html">
+                        <div>
+                            <h2>
+                                the Great Div Maker
+                            </h2>
+                        </div>
+                        </a>
+                    <a href="Projects/Password_Maker/Passworld_Maker.html">
+                        <div>
+                            <h2>
+                                Password Maker
+                            </h2>  
+                        </div>
+                        
+                    </a>
+                    <a href="Projects/Timer/Timer.html">
+                        <div>
+                            <h2>
+                                Set The Timer
+                            </h2>  
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div>
+                            <h2>
+                                Coming Soon
+                            </h2>  
+                        </div>
+                    </a>
+                </nav>
+            </section>
+            
+            <section>
+                <button id="The_Main_button_2" onclick="getting_The_button_Name(2)" class="Thing_for_the_buttonss_And_Settings">
+                    <h1 >Links </h1>
+                </button>
+                <nav id="The_Background_2" class="Other_Items_For_the_button" style="display: none;">
+                    <a href="blog.html">
+                        <div>
+                            <h2>
+                                Blogs
+                            </h2>
+                        </div>
+                        </a>
+                    <a href="">
+                        <div>
+                            <h2>
+                                ENJ.online
+                            </h2>  
+                        </div>
+                    </a>
                     
-                </a>
-                <a>
-                    <button>
-                        <h2>
-                            Coming Soon
-                        </h2>  
-                    </button>
-
-                <div></div>
-            </div>
+                </nav>
+            </section>
+            <section>
+                <button id="The_Main_button_3" onclick="getting_The_button_Name(3)" class="Thing_for_the_buttonss_And_Settings">
+                    <h2>
+                        Website Stlye  
+                    </h2> 
+                </button>
+                <section id="The_Background_3" class="Other_Items_For_the_button" style="display: none;">
+                    <button>The Mointers Stlye</button>
+                    <Button>The Small Shops stlye</Button>
+                    <button>The Plan stlye </button>
+                </section>
+            </section>
         </main>
     <footer class="The_Website_main_footer">
         <h1 class="Title">Info</h1>
@@ -92,12 +123,13 @@
                     <li>Or</li>
                     <li>Keep Any InFo From You </li>
                     <br>
-                    <li>Last Update 16/06/23 at 13:30</li>
+                    <li>Last Update 03/08/23 at 13:30</li>
                 </ul>
 
             </li>
         </ul>
 
     </footer>
+    <script src="index.js"></script>
 </body>
 </html>
