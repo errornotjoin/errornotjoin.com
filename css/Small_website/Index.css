@@ -1,0 +1,81 @@
+@media (max-width:1570px) {
+    aside
+    {
+        width: 15%;
+    }
+    .Post div
+    {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        text-align: center;
+        background-color: rgb(0, 0, 0);
+        border-radius: 10px;
+        gap: 10%;
+    }
+    
+}
+@media (max-width:1288px) {
+    .Post div
+    {
+        gap: 5%;
+    }  
+}
+@media (max-width:1014px) {
+    .Post div
+    {
+        display: flex;
+        flex-direction: column;
+        gap: 1%;
+        text-align: center;
+        text-wrap:pretty;
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }  
+    .Post div h2
+    {
+    
+        gap: 4%;
+    
+    
+    }
+    .Holding_the_aside_and_Main_items
+    {
+        display: flex;
+        flex-direction: column;
+        gap: 10%;
+    }
+    aside
+    {
+        background-color: rgb(17, 17, 17);
+        width: 99%;
+        height: 100px;
+        position: relative;
+        top: 10px;
+        margin-bottom: 10px;
+        display: grid;
+        grid-template-columns: 30% 30% 30% 30% 30% 30%;
+        gap: 0%;
+        overflow-x: scroll;
+        overflow-y: hidden;
+    }
+    aside div
+    {
+        width: 100%;
+    }
+    main
+    {
+        margin-top: 10px;
+        position: relative;
+        top: 100px;
+        width: 99%;
+        left: 3%;
+    }
+    footer
+    {
+        width: 99%;
+       position: relative;
+       top: 200px;
+       overflow-x: scroll;
+
+    }
+}

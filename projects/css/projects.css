@@ -1,0 +1,49 @@
+@media (max-width:1013px) {
+    main
+    {
+        display: grid;
+        grid-template-columns: 25% 25% 25% ;
+        grid-template-rows: 22% 22% 22%;
+        gap: 5%;
+        position: relative;
+        left: 5%;
+    }
+    
+}
+@media (max-width:803px)
+{
+    main
+    {
+        display: grid;
+        grid-template-columns: 45% 45%  ;
+        gap: 2%;
+        position: relative;
+        left: 5%;
+    }
+    footer
+    {
+        position: relative;
+        top: 900px;
+    }
+}
+
+@media (max-width:487px)
+{
+    main
+    {
+        display: flex;
+        flex-direction: column;
+        gap: 10%;
+        position: relative;
+        left: 1%;
+    }
+    footer
+    {
+        position: relative;
+        top: 900px;
+    }
+    main a
+    {
+      margin-bottom: 10px;
+    }
+}

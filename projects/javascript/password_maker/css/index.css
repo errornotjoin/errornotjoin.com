@@ -1,0 +1,86 @@
+.hold
+{
+    background-color: #111111;
+    border-radius: 10px;
+
+}
+.Show_the_password
+{
+    height: 100px;
+    background-color: #161616;
+    border-radius: 10px;
+}
+.Show_the_password input
+{
+    position: relative;
+    top: 20px;
+    height: 50px;
+    width: 95%;
+    border-radius: 10px;
+    font-size: 42px;
+    background-color: #2c2c2c;
+    border: none;
+    color: snow;
+}
+.Pick_here
+{
+    position: relative;
+    top: 50px;
+    left: 5%;
+    display: grid;
+    grid-template-columns: 45% 45%;
+    width: 95%;
+    gap: 5%;
+}
+.Pick_here div
+{
+    background-color: #161616;
+    border-radius: 10px;
+}
+.Pick_here div input
+{position: relative;
+    top: 25px;
+    height: 100px;
+    width: 95%;
+    border-radius: 10px;
+}
+.Items
+{
+    position: relative;
+    top: 30px;
+    width: 95%;
+    background-color: #161616;
+}
+.Items input
+{
+    width: 95%;
+    height: 50px;
+}
+
+.hold footer
+{
+    position: relative;
+    top: 300px;
+    left: 2%;
+    background-color: #2c2c2c;
+    width: 95%;
+    height: 100px;
+}
+.soemthing
+{
+    position: relative;
+    top: 100px;
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+}
+button
+{
+    position: relative;
+    left: 3%;
+    width: 45%;
+    height: 50px;
+    background-color: #161616;
+    color: snow;
+    border-radius: 10px;
+}
